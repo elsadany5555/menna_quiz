@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg,#404258,#474E68,#50577A);
+    font-style: system-ui;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.qz_container{
+    background-color: #6B728E;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px #18122B;
+    width: 600px;
+    overflow: hidden;
+}
+.qz_header{
+    padding:4rem;
+}
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    font-size: 1.2rem;
+    margin:1rem 0;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: #404258;
+    color:black;
+    border:none;
+    display: block;
+    width:100%;
+    cursor: pointer;
+    height: 50px;
+    font-size: 1.7rem;
+}
+button:hover{
+    background-color: #50577A;
+}
+button:focus{
+    outline: none;
+    background-color: #6B728E;
+}
